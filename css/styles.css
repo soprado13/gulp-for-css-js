@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .header h2 {
+    font-family: "Amplify";
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.29;
+    letter-spacing: 0.25px;
+    color: #f47321; }
+    .header h2 span {
+      color: #525355; }
+
+.banner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .banner img {
+    width: 100%; }
+
+.content {
+  padding: 58px 108px 80px 162px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+  .content-left {
+    width: 100%;
+    max-width: 668px;
+    margin-right: 50px; }
+    .content-left p.text {
+      margin-top: 60px;
+      font-family: "Amplify";
+      font-size: 17px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.76;
+      letter-spacing: 0.18px;
+      color: #767676;
+      max-width: 550px; }
+    .content-left .pdf-wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 24px; }
+      .content-left .pdf-wrapper .getting-stearted {
+        font-family: "BentonSans";
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #3b3b3b; }
+        .content-left .pdf-wrapper .getting-stearted:before {
+          content: '';
+          width: 20px;
+          height: 20px;
+          margin-right: 6px;
+          background: url(../img/pdf.svg) top/cover; }
+  .content-right {
+    width: 100%;
+    max-width: 450px; }
+    .content-right img {
+      width: 100%; }
+
+h2.heading {
+  font-family: "Amplify";
+  font-size: 48px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: 0.51px;
+  color: #595959; }
+
+p.subheading {
+  font-size: 24px;
+  letter-spacing: 0.25px;
+  line-height: 2.29;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  p.subheading:after {
+    content: '';
+    width: 40px;
+    height: 2px;
+    border-radius: 3px;
+    background: #595959;
+    margin-top: 10px; }
+
+.switcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 80px 69px 200px 150px; }
+  .switcher .book1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .switcher .book1 .row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 35px; }
